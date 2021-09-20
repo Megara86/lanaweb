@@ -1,0 +1,57 @@
+/*------------------------------------------------------------------
+[Custom Theme Stylesheet]
+
+Project:	Law Firm - Onepage Html Responsive Template
+Version:	1.1
+Primary use:	Law Firm - Onepage Html Responsive Template 
+-------------------------------------------------------------------*/
+
+/*add your style css here*/
+
+.list-element{
+    display:none;
+}
+.list .list-element:nth-child(1) {
+    display: block;
+}
+
+.list .list-element:nth-child(2) {
+    display: block;
+}
+.readless {
+    display: none;
+}
+
+.uniqueH [class*="col-"]{
+height:429px
+}
+.ser-block{
+height:384px
+}
+@media only screen and (max-width: 1200px){
+.uniqueH [class*="col-"]{
+height:460px
+}
+.ser-block{
+height:415px
+}
+@media only screen and (max-width: 992px){
+.uniqueH [class*="col-"]{
+height:314px
+}
+.ser-block{
+height:289px
+}
+}
+@media only screen and (max-width: 768px){
+.uniqueH [class*="col-"]{
+height:auto
+}
+.ser-block{
+height:auto
+}
+    .column {
+        display: flex;
+        align-items: center
+    }
+}
