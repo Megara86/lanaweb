@@ -760,7 +760,7 @@ section.logo-slide {
 .blog-content a {
     border: none;
     box-shadow: none;
-    text-transform: capitalize;
+   text-transform: capitalize;
 	color:#46c6fb;
 }
 .blog-text{
@@ -969,9 +969,12 @@ body {
 .flex-caption {
     top: 30%;
 }
-.about .left-side {
-    padding: 15px;
-}
+    about-article {
+        margin-top: unset;
+    }
+    .about .left-side {
+        padding: 15px;
+    }
 .about-content {
     padding-bottom: 0px;
 }
@@ -1089,10 +1092,20 @@ section {
 
 /*--------------iPhone 6 plus landscape----------------*/
 @media only screen and (max-width: 767px) {
+
+    .flex-caption h1 {
+        margin-bottom: unset;
+    }
 body{
 	font-size:100%;
 	    overflow-x: hidden;
 }
+    .flex-caption{
+        padding-top:3%;
+    }
+    .article {
+        font-size: 16px;
+    }
     .fs-48 {
         font-size: 2.0em;
     }
@@ -1206,7 +1219,7 @@ section.logo-slide img {
     border-color: transparent;
 }
 .blog-content {
-    border-bottom: 1px solid #ccc;
+    /*border-bottom: 1px solid #ccc;*/
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }

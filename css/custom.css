@@ -8,50 +8,85 @@ Primary use:	Law Firm - Onepage Html Responsive Template
 
 /*add your style css here*/
 
-.list-element{
-    display:none;
-}
-.list .list-element:nth-child(1) {
-    display: block;
-}
+    
 
-.list .list-element:nth-child(2) {
-    display: block;
-}
-.readless {
-    display: none;
-}
-
-.uniqueH [class*="col-"]{
-height:429px
-}
-.ser-block{
-height:384px
-}
-@media only screen and (max-width: 1200px){
-.uniqueH [class*="col-"]{
-height:460px
-}
-.ser-block{
-height:415px
-}
-@media only screen and (max-width: 992px){
-.uniqueH [class*="col-"]{
-height:314px
-}
-.ser-block{
-height:289px
-}
-}
-@media only screen and (max-width: 768px){
-.uniqueH [class*="col-"]{
-height:auto
-}
-.ser-block{
-height:auto
-}
-    .column {
-        display: flex;
-        align-items: center
+    .main-button {
+        font-size: 1em;
+        color: #222222;
+        text-transform: uppercase;
+        background-color: #fff;
+        border-color: #dddddd;
+        position: relative;
+        margin-right: 15px;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border: 1px solid transparent;
+        border-radius: 4px;
     }
-}
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .list-element {
+        display: none;
+    }
+
+    .list .list-element:nth-child(1) {
+        display: block;
+    }
+
+    .list .list-element:nth-child(2) {
+        display: block;
+    }
+
+    .readless {
+        display: none;
+    }
+
+    .uniqueH [class*="col-"] {
+        height: 429px
+    }
+
+    .ser-block {
+        height: 384px
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .uniqueH [class*="col-"] {
+            height: 460px
+        }
+
+        .ser-block {
+            height: 415px
+        }
+
+        @media only screen and (max-width: 992px) {
+            .uniqueH [class*="col-"] {
+                height: 314px
+            }
+
+            .ser-block {
+                height: 289px
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            
+            .uniqueH [class*="col-"] {
+                height: auto
+            }
+
+            .ser-block {
+                height: auto
+            }
+
+            .column {
+                display: flex;
+                align-items: center
+            }
+        }
